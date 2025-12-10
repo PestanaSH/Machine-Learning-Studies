@@ -75,5 +75,20 @@ random_state -> Semente para reprodutibilidade
 * **NEMÓRIA**: Baixo consumo de memória
 * **ROBUSTO**: Funciona bem mesmo quando anomalias são raras
 
+## 6. DESVANTAGENS
+
+* Pode ter dificuldade com anomalias "locais" (pontos anormais dentro de clusters)
+* O parâmetro 'contamination' pode ser difícil de estimar
+* Menos interpretável que alguns métodos baseados em regras
+* Pode não funcionar bem quando anomalias formam clusters densos
+
+## 7. CASOS DE USO
+
+* **Fraude**: Detecção de transações fraudulentas em cartões de crédito
+* **SEGURANÇA**: Identificação de invasões em redes de computadores
+* **SAÚDE**: Detecção de diagnósticos anormais em exames médicos
+* **MANUFATURA**: Identificação de defeitos em produtos
+* **IoT**: Detecção de falhas em sensores
+* **FINANÇAS**: Identificação de comportamentos suspeitos de mercado 
   
 
