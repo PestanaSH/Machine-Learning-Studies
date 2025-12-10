@@ -66,3 +66,14 @@ max_features -> Número de features para cada árvore (padrão: todas)
 
 random_state -> Semente para reprodutibilidade
 
+## 5. Vantagens do ISOLATION FOREST
+
+* **EFICIENTE**: Complexidade 0(n log n), muito rápido para grandes datasets
+* **NÃO PRECISA DE LABELS**: Algoritmo não supervisionado
+* **ESCALAVEL**: Funciona bem com dados de alta dimensionalidade
+* **SEM DISTÂNCIA**: Não depende de cálculos de distâncias (diferente de LOF, DBSCAN)
+* **NEMÓRIA**: Baixo consumo de memória
+* **ROBUSTO**: Funciona bem mesmo quando anomalias são raras
+
+  
+
