@@ -53,3 +53,16 @@ Exemplo de uma árvore:
  - s -> 1: alta probabilidade de anomalia
  - s -> 0: baixa probabilidade de anomalia
  - s = 0.5: ponto normal
+
+## 4. Parâmetros Principais
+
+n_estimators -> Número de árvores na floresta (padrão: 100). Mais árvores = resultados mais estáveis, mas mais lento;
+
+contamination -> Proporção esperada de anomalias nos dados (0 a 0.5). Ex: 0.05 significa que ~5% são anomalias
+
+max_samples -> Número de amostras para treinar cada árvore "auto" usa min(256, n_samples)
+
+max_features -> Número de features para cada árvore (padrão: todas)
+
+random_state -> Semente para reprodutibilidade
+
